@@ -1,0 +1,449 @@
+/*
+   CCCCCC       SSSSSSSSS     SSSSSSSSS  
+ CCCCCCCCCC    SSSSSSSSSSS   SSSSSSSSSSS 
+CCC      CCC   SSS     SSS   SSS     SSS 
+CCC            SSS           SSS         
+CCC             SSSSSSSSS     SSSSSSSSS  
+CCC                    SSS           SSS 
+CCC      CCC   SSS     SSS   SSS     SSS 
+ CCCCCCCCCC    SSSSSSSSSSS   SSSSSSSSSSS 
+   CCCCCC       SSSSSSSSS     SSSSSSSSS  
+
+Web Page: 
+Web Page URL: 
+Author: Tasnimul Islam Shadi
+Author URL: https://www.linkedin.com/in/tasnimulislamshadi/
+Author Email: tasnimulislamshadi@gmail.com
+
+Version: 1.0
+
+This Web page is desinged for educational purposes.
+You can copy it to make something cool, have fun, and share what you've learned with others.
+
+----------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.  Global Css
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+13. 
+13. 
+13. 
+13. 
+13. 
+13. 
+14. 
+15. 
+16. 
+16. 
+17. 
+18. 
+19. 
+20. 
+===============================================================================================*/
+
+/*=========== Global CSS = Start ================*/
+
+* {
+	font-family: arial;
+}
+
+.no-pad {
+	padding: 0;
+}
+
+h1 {
+	color: #fff;
+    font-size: 40px;
+}
+h1 span {
+	color: #2a5da3;
+	font-weight: bold;
+}
+h2 {
+	color: #fff;
+    font-size: 27px;
+}
+h3 {
+	color: #fff;
+    font-size: 20px;
+}
+p {
+	font-size: 14px;
+    color: #66778e;
+    margin-top: 20px;
+    line-height: 27px;
+}
+
+.btn {
+	border: 1px solid #2a5da3;
+    background: transparent;
+    color: #fff;
+    border-radius: 30px;
+    padding: 9px 0;
+    font-weight: bold;
+    font-size: 14px;
+    width: 160px;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+    -o-transition: 0.8s ease;
+}
+.btn:hover {
+	border-color: #fff;
+	background-color: #fff;
+	color: #2a5da3;
+}
+
+/*=========== Global CSS = End ================*/
+
+
+
+/*=========== Header = Start ================*/
+
+header {
+	background-color: #0a2345;
+}
+
+/*-------------- Navigation ---------------*/
+
+.header-navigation {
+
+}
+.navbar {
+
+}
+.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand img {
+	width: 160px;
+}
+.navbar-toggler {
+	border-color: transparent!important;
+}
+.fa.fa-bars {
+	color: #224f8c;
+    font-size: 30px;
+}
+/*-Collapse menu-*/
+.p-4 {
+	text-align: right;
+}
+
+.nav-item {
+
+}
+.nav-link {
+	color: #fff;
+	font-weight: bold;
+}	
+.nav-link:hover {
+	color: #bd2f39;
+}
+
+/*-------------- Hero ---------------*/
+
+.hero {
+
+}
+.hero-box {
+    text-align: center;
+    margin: 130px 0;
+}
+.hero-box p {
+	color: #2a5da3;
+	font-size: 18px;
+}
+.hero-box button {
+	margin-top: 40px;
+}
+
+/*=========== Header = End ================*/
+
+
+
+/*=========== Section UI Image = Start ================*/
+
+.section-ui-image {
+	background-color: #0a2345;
+}
+.ui-image-bg {
+	background: url(../img/wave-bg.png)no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.ui-image {
+
+}
+.ui-image img {
+	display: block;
+	width: 100%;
+}
+
+/*=========== Section UI Image = End ================*/
+
+
+
+/*=========== Section Headphone = Start ================*/
+
+.section-headphone {
+	background-color: #0a2345;
+	padding: 40px 0;
+}
+
+.headphone-image {
+
+}
+.headphone-image img {
+	display: block;
+	width: 100%;
+}
+
+.headphone-content {
+	margin-top: 70px;
+}
+.headphone-content p {
+	padding-right: 23%;
+}
+.headphone-content button {
+	margin-top: 40px;
+}
+
+
+/*=========== Section Headphone = End ================*/
+
+
+
+/*=========== Section Fetures = Start ================*/
+
+.section-fetures {
+	background-color: #0a2345;
+	padding: 50px 0;
+}
+
+.features-text {
+
+}
+.features-title {
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+/*---Fetures text---*/
+.features-text-box {
+
+}
+.features-text-box img {
+	width: 40px;
+}
+.features-text-box h3 {
+	margin-top: 25px;
+}
+.features-text-box p {
+	margin-top: 5px;
+	margin-bottom: 55px;
+}
+
+/*---Fetures img---*/
+.features-img {
+	position: relative;
+}
+.features-img-position {
+	position: absolute;
+    width: 625px;
+    top: -40%;
+    left: -33%;
+}
+.features-img img {
+	display: block;
+	width: 100%;
+}
+
+/*=========== Section Fetures = End ================*/
+
+
+
+/*=========== Section Fetures = Start ================*/
+
+.section-off {
+	background-image: linear-gradient(#0a2345, #051021);
+	padding: 120px 0;
+}
+.off-content {
+	padding-left: 13%;
+	padding-right: 40px;
+	margin-top: 120px;
+}
+.off-content img {
+	width: 40px;
+}
+.off-content h2 {
+	margin-top: 25px;
+}
+.off-content p {
+	margin-top: 5px;
+}
+.off-image {
+
+}
+.off-image img {
+	display: block;
+	width: 100%;
+}
+
+/*=========== Section Fetures = End ================*/
+
+
+/*=========== Section Review = Start ================*/
+
+.section-review {
+	background-color: #0a1b35;
+	padding: 80px 0;
+}
+.review-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.review-text p {
+	font-size: 18px;
+    padding: 0 20%;
+}
+
+.review-person-img {
+    width: 22%;
+    float: left;
+    text-align: right;
+}
+.review-person-img img {
+	width: 25px;
+}
+
+.review-person-name {
+	width: 78%;
+    float: left;
+    text-align: left;
+}
+.review-person-name p {
+	font-size: 10px;
+    margin: 0;
+    padding: 4px 0px 0px 10px;
+}
+.review-person-name p span {
+    color: #18437d;
+}
+
+/*=========== Section Review = End ================*/
+
+
+
+/*=========== Section Discover = Start ================*/
+
+.section-discover {
+	background-color: #020307;
+	padding: 90px 0;
+}
+
+.discover-title {
+	text-align: center;
+}
+.discover-title h2 {
+
+}
+.discover-title p {
+    padding: 0 25%;
+}
+
+.discover-img img {
+	width: 100%;
+	display: block;
+}
+
+.discover-btn {
+	text-align: center;
+}
+
+/*=========== Section Discover = End ================*/
+
+
+
+/*=========== Footer = Start ================*/
+
+footer {
+	background-color: #020307;
+}
+
+.footer-line {
+	height: .5px;
+	background-color: #2e3743;
+}
+
+.footer-menu {
+	text-align: left;
+}
+.footer-menu ul {
+	padding: 20px;
+	list-style: none;
+}
+.footer-menu ul li {
+	display: inline-block;
+}
+.footer-menu ul li a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #2a5da3!important;
+}
+
+.copyright {
+	text-align: right;
+	padding: 20px;
+}
+.copyright p {
+	color: #2a5da3;
+	padding: 0;
+	margin: 0;
+	font-size: 12px
+}
+
+/*=========== Footer = End ================*/
+
+
+
+/*=========== Global CSS = Start ================*/
+
+
+
+/*=========== Global CSS = End ================*/
+
+
+
+/*=========== Global CSS = Start ================*/
+
+
+
+/*=========== Global CSS = End ================*/
+
+
+
+/*=========== Global CSS = Start ================*/
+
+
+
+/*=========== Global CSS = End ================*/
+
+
+
+/*=========== Global CSS = Start ================*/
+
+
+
+/*=========== Global CSS = End ================*/
