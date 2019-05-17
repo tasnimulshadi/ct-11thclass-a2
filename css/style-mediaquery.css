@@ -27,15 +27,185 @@ You can copy it to make something cool, have fun, and share what you've learned 
 
 @media (min-width: 0px) and (max-width: 500px){
 
-/*------------------Header--------------------*/
-/*------------------Section-1-----------------*/
-/*------------------Section-2-----------------*/
-/*------------------Section-3-----------------*/
-/*------------------Section-4-----------------*/
-/*------------------Section-5-----------------*/
+/*------------------Global Css--------------------*/
+
+h1 {
+    font-size: 30px;
+}
+h2 {
+	color: #fff;
+    font-size: 22px;
+}
+h3 {
+	color: #fff;
+    font-size: 20px;
+}
+p {
+	margin-top: 12px;
+}
+
+.btn {
+	padding: 8px 0;
+    font-size: 11px;
+    width: 140px;
+}
+
+/*------------------Header-----------------*/
+
+.navbar-brand {
+	padding-top: 0px;
+}
+.navbar-brand img {
+	width: 130px;
+}
+
+.hero-box {
+    text-align: center;
+    margin: 70px 0;
+}
+.hero-box p {
+	font-size: 15px;
+}
+.hero-box button {
+	margin-top: 20px;
+}
+
+/*------------------UI Image-----------------*/
+
+
+
+/*------------------Headphone-----------------*/
+
+.section-headphone {
+    padding: 50px 0;
+}
+.headphone-content {
+	margin-top: 50px;
+}
+.headphone-content p {
+	padding-right: 0;
+}
+.headphone-content button {
+	margin-top: 20px;
+}
+
+/*------------------Fetures-----------------*/
+
+.section-fetures {
+	padding: 0;
+}
+.features-title {
+	margin-bottom: 40px;
+}
+
+/*---Fetures text---*/
+.features-text-box {
+	text-align: center;
+}
+.features-text-box h3 {
+	margin-top: 15px;
+}
+.features-text-box p {
+	margin-bottom: 25px;
+}
+
+.features-img {
+	position: unset;
+}
+.features-img-position {
+	position: unset;
+    width: 100%;
+}
+
+/*------------------Off-----------------*/
+
+.section-off {
+	padding: 0;
+}
+.off-content {
+	padding: 15px;
+	margin-top: 50px;
+}
+.off-content img {
+	width: 50px;
+}
+.off-content h2 {
+	margin-top: 10px;
+}
+.off-content p {
+	margin-top: 5px;
+}
+.off-image img {
+	width: 100%;
+	padding: 30px 0;
+}
+
+/*---------------------Review----------------------*/
+
+.section-review {
+	padding: 30px 0;
+}
+.review-text {
+    margin-bottom: 0px;
+}
+.review-text p {
+	font-size: 17px;
+    padding: 0;
+}
+
+.review-person-img {
+    width: 17%;
+}
+.review-person-img img {
+	width: 25px;
+}
+
+.review-person-name {
+	width: 77%;
+}
+
+/*------------------Discover-------------------*/
+
+.section-discover {
+	padding: 30px 0;
+}
+
+.discover-title p {
+    padding: 0;
+}
+
 /*------------------Footer--------------------*/
 
+.footer-line {
+	height: 2px;
+}
 
+.footer-menu {
+	text-align: center;
+}
+.footer-menu ul {
+	padding: 10px 0 0 0;
+	margin: 0;
+}
+.footer-menu ul li {
+	display: inline-block;
+}
+.footer-menu ul li a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #2a5da3!important;
+}
+
+.copyright {
+	text-align: center;
+	padding: 0 0 20px 0;
+}
+.copyright p {
+	color: #2a5da3;
+	padding-bottom: 0;
+	margin: 0;
+	font-size: 12px
+}
 
 
 }
@@ -46,13 +216,177 @@ You can copy it to make something cool, have fun, and share what you've learned 
 
 @media (min-width: 501px) and (max-width: 767px){
 
-/*------------------Header--------------------*/
-/*------------------Section-1-----------------*/
-/*------------------Section-2-----------------*/
-/*------------------Section-3-----------------*/
-/*------------------Section-4-----------------*/
-/*------------------Section-5-----------------*/
+/*------------------Global Css--------------------*/
+
+h1 {
+    font-size: 30px;
+}
+h2 {
+	color: #fff;
+    font-size: 22px;
+}
+h3 {
+	color: #fff;
+    font-size: 20px;
+}
+
+
+/*------------------Header-----------------*/
+
+.navbar-brand {
+	padding-top: 0px;
+}
+.navbar-brand img {
+	width: 130px;
+}
+
+.hero-box {
+    text-align: center;
+    margin: 70px 0;
+}
+.hero-box p {
+	font-size: 15px;
+}
+.hero-box button {
+	margin-top: 20px;
+}
+
+/*------------------UI Image-----------------*/
+
+
+
+/*------------------Headphone-----------------*/
+
+.section-headphone {
+    padding: 70px 0;
+}
+.headphone-content {
+	margin-top: 50px;
+}
+.headphone-content p {
+	padding-right: 0;
+}
+.headphone-content button {
+	margin-top: 30px;
+}
+
+/*------------------Fetures-----------------*/
+
+.section-fetures {
+	padding: 0;
+}
+.features-title {
+	margin-bottom: 40px;
+}
+
+/*---Fetures text---*/
+.features-text-box {
+	text-align: center;
+}
+.features-text-box h3 {
+	margin-top: 15px;
+}
+.features-text-box p {
+	margin-bottom: 25px;
+}
+
+.features-img {
+	position: unset;
+}
+.features-img-position {
+	position: unset;
+    width: 100%;
+}
+
+/*------------------Off-----------------*/
+
+.section-off {
+	padding: 0;
+}
+.off-content {
+	padding: 15px;
+	margin-top: 50px;
+}
+.off-content img {
+	width: 50px;
+}
+.off-content h2 {
+	margin-top: 20px;
+}
+.off-content p {
+	margin-top: 8px;
+}
+.off-image img {
+	width: 100%;
+	padding: 30px 0;
+}
+
+/*---------------------Review----------------------*/
+
+.section-review {
+	padding: 40px 0;
+}
+.review-text {
+    margin-bottom: 0px;
+}
+.review-text p {
+	font-size: 17px;
+    padding: 0;
+}
+
+.review-person-img {
+    width: 30%;
+}
+.review-person-img img {
+	width: 25px;
+}
+
+.review-person-name {
+	width: 70%;
+}
+
+/*------------------Discover-------------------*/
+
+.section-discover {
+	padding: 40px 0;
+}
+
+.discover-title p {
+    padding: 0;
+}
+
 /*------------------Footer--------------------*/
+
+.footer-line {
+	height: 2px;
+}
+
+.footer-menu {
+	text-align: center;
+}
+.footer-menu ul {
+	padding: 10px 0 0 0;
+	margin: 0;
+}
+.footer-menu ul li {
+	display: inline-block;
+}
+.footer-menu ul li a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #2a5da3!important;
+}
+
+.copyright {
+	text-align: center;
+	padding: 0 0 20px 0;
+}
+.copyright p {
+	color: #2a5da3;
+	padding-bottom: 0;
+	margin: 0;
+	font-size: 12px
+}
 
 
 
@@ -65,15 +399,29 @@ You can copy it to make something cool, have fun, and share what you've learned 
 
 @media (min-width: 768px) and (max-width: 1199px){
 
-/*------------------Header--------------------*/
-/*------------------Section-1-----------------*/
-/*------------------Section-2-----------------*/
-/*------------------Section-3-----------------*/
-/*------------------Section-4-----------------*/
-/*------------------Section-5-----------------*/
-/*------------------Footer--------------------*/
+/*------------------Fetures--------------------*/
 
 
+.features-img {
+	position: unset;
+}
+.features-img-position {
+	position: unset;
+    width: 100%;
+    margin-top: 100px;
+}
+
+/*-------------------OFF-----------------------*/
+
+.section-off {
+	background-image: linear-gradient(#0a2345, #051021);
+	padding: 60px 0;
+}
+.off-content {
+	padding-left: 60px;
+	padding-right: 40px;
+	margin-top: 30px;
+}
 
 
 }
@@ -83,15 +431,6 @@ You can copy it to make something cool, have fun, and share what you've learned 
 ================================*/
 
 @media (min-width: 1200px) {
-
-/*------------------Header--------------------*/
-/*------------------Section-1-----------------*/
-/*------------------Section-2-----------------*/
-/*------------------Section-3-----------------*/
-/*------------------Section-4-----------------*/
-/*------------------Section-5-----------------*/
-/*------------------Footer--------------------*/
-
 
 
 

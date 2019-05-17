@@ -9,13 +9,11 @@ CCC      CCC   SSS     SSS   SSS     SSS
  CCCCCCCCCC    SSSSSSSSSSS   SSSSSSSSSSS 
    CCCCCC       SSSSSSSSS     SSSSSSSSS  
 
-Web Page: 
-Web Page URL: 
+Web Page: Coelosu
+Web Page URL: https://tasnimulshadi.github.io/ct-11thclass-a2/
 Author: Tasnimul Islam Shadi
 Author URL: https://www.linkedin.com/in/tasnimulislamshadi/
 Author Email: tasnimulislamshadi@gmail.com
-
-Version: 1.0
 
 This Web page is desinged for educational purposes.
 You can copy it to make something cool, have fun, and share what you've learned with others.
@@ -23,33 +21,15 @@ You can copy it to make something cool, have fun, and share what you've learned 
 ----------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
-1.  Global Css
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
-11. 
-12. 
-13. 
-13. 
-13. 
-13. 
-13. 
-13. 
-13. 
-14. 
-15. 
-16. 
-16. 
-17. 
-18. 
-19. 
-20. 
+1. Global Css
+2. Header
+3. Section UI Image
+4. Section Headphone
+5. Section Fetures
+6. Section Off
+7. Section Review
+8. Section Discover
+9. Footer 
 ===============================================================================================*/
 
 /*=========== Global CSS = Start ================*/
@@ -202,7 +182,7 @@ header {
 }
 
 .headphone-image {
-
+    padding-left: 0;
 }
 .headphone-image img {
 	display: block;
@@ -273,7 +253,7 @@ header {
 
 
 
-/*=========== Section Fetures = Start ================*/
+/*=========== Section Off = Start ================*/
 
 .section-off {
 	background-image: linear-gradient(#0a2345, #051021);
@@ -401,6 +381,9 @@ footer {
 	text-decoration: none;
 	font-size: 12px;
 	color: #2a5da3!important;
+}
+.footer-menu ul li a:hover {
+	color: #fff!important;
 }
 
 .copyright {
